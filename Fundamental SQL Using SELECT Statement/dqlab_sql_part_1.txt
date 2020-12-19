@@ -1,3 +1,5 @@
+#Untuk Tabel ms_pelanggan
+
 CREATE TABLE `ms_pelanggan` (
  `no_urut` int(11) NOT NULL,
  `kode_pelanggan` varchar(50) NOT NULL,
@@ -38,6 +40,7 @@ INSERT INTO `ms_produk` (`no_urut`, `kode_produk`, `nama_produk`, `harga`) VALUE
 (9, 'prod-09', 'Buku Planner Agenda DQLab', 92000),
 (10, 'prod-10', 'Sticky Notes DQLab 500 sheets', 55000);
 
+#Untuk Tabel tr_penjualan
 CREATE TABLE `tr_penjualan` (
  `kode_transaksi` varchar(50) NOT NULL,
  `kode_pelanggan` varchar(50) NOT NULL,

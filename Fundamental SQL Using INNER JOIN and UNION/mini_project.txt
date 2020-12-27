@@ -1,5 +1,4 @@
 Project INNER JOIN
-query:
 
 SELECT DISTINCT ms_pelanggan.kode_pelanggan, ms_pelanggan.nama_customer, ms_pelanggan.alamat
 FROM ms_pelanggan
@@ -10,3 +9,11 @@ tr_penjualan.nama_produk = 'Sticky Notes DQLab 500 sheets'
 
 
 Project UNION 
+
+SELECT nama_produk, kode_produk, harga
+FROM ms_produk_1
+WHERE harga < 100000
+UNION
+SELECT nama_produk, kode_produk, harga
+FROM ms_produk_2
+WHERE harga < 50000

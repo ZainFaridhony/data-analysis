@@ -6,3 +6,11 @@
 # 4. Fundamental SQL Using SELECT Statement
 # 5. Fundamental SQL Using FUNCTION and GROUP BY
 # 6. Fundamental SQL Using INNER JOIN and UNION
+
+## Running Tests
+
+To run the test suite, install the required packages (e.g. `pytest` and `pandas`) and execute:
+
+```bash
+pytest
+```
